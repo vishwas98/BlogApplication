@@ -35,7 +35,6 @@ The Blog Application requires environment variables for configuration. Before de
 
 makefile
  ```
-Copy code
 AUTH0_SECRET=
 AUTH0_BASE_URL=
 AUTH0_ISSUER_BASE_URL=
