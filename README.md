@@ -20,7 +20,7 @@ To get started with the Blog Application, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/blog-application.git
+   git clone https://github.com/vishwas98/BlogApplication.git
    ```
 
 2. Navigate to the project directory and install the dependencies using npm:
