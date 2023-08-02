@@ -5,6 +5,7 @@ This project is a Blog Application built using Next.js and OpenAI. It features a
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Configuration](#configuration)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -29,6 +30,25 @@ To get started with the Blog Application, follow these steps:
    npm install
    ```
 
+## Configuration
+The Blog Application requires environment variables for configuration. Before deploying the application, create a .env file in the root directory and add the following variables:
+
+makefile
+ ```
+Copy code
+AUTH0_SECRET=
+AUTH0_BASE_URL=
+AUTH0_ISSUER_BASE_URL=
+AUTH0_CLIENT_ID=
+AUTH0_CLIENT_SECRET=
+OPENAI_API_KEY=
+MONGODB_URI=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+STRIPE_PRODUCT_PRICE_ID=
+ ```
+Make sure to fill in the values for each of these variables as they correspond to the required API keys and secrets for Auth0, OpenAI, Stripe, and MongoDB. These variables are essential for the proper functioning of the application.
 ## Deployment
 
 Before deploying the application, ensure that you have set up the required environment variables. These variables might include API keys for OpenAI and Stripe, database connection strings, and any other sensitive information.
